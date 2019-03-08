@@ -1,0 +1,19 @@
+{
+  "name": "tiny-search-params",
+  "version": "0.1.0",
+  "description": "Tiny (~300b) and ultra fast query-string like utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "bench": "node benchmark-parse.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ale-url-parser": "0.11.0",
+    "ava": "1.3.1",
+    "benchmark": "2.1.4",
+    "fast-url-parser": "1.1.3",
+    "query-string": "6.3.0"
+  }
+}
